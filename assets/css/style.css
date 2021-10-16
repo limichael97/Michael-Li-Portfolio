@@ -19,6 +19,8 @@ body {
 
 }
 
+/* Header */
+
 header {
     padding: 20px 35px;
     display: flex;
@@ -73,6 +75,8 @@ section {
     padding: 60px;
 }
 
+/* Hero */
+
 .hero {
     background-image: url("../images/background2.jpg");
     background-size: cover;
@@ -119,18 +123,19 @@ section h2 {
     font-size: 42px;
 }
 
+/* About Me */
+
 .intro {
     background-color: black;
     color: white;
 }
 
+/* Structure for Work section */
 .section-info {
     width: 100%;
-
 }
 
 .section-title {
-
     text-align: center;
     border-bottom: 3px solid white;
     margin-right: auto;
@@ -232,6 +237,8 @@ section h2 {
     padding-top: 8px;
 }
 
+/* Contact Section */
+
 .form {
     text-align: center;
     display: block;
@@ -291,6 +298,8 @@ form button:hover {
     color: black;
     background: gray;
 }
+
+/* Footer Section */
 
 footer {
     color: white;
@@ -357,8 +366,8 @@ footer {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 550px) {
     .avatar img{
-        width: 270px;
-        height: 270px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
