@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset ="UTF-8" />
+        <meta name = "viewport" content= "width-device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel = "stylesheet" href= "./assets/css/style.css">
+    </head>
+
+    <body>
+        <!--navigation-->
+        <header>
+            <h1>
+                <a href="">MICHAEL LI</a>
+            </h1>
+            <nav>
+                <!--Unordered List-->
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                
+                    <li>
+                        <a href="#projects">Projects </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+
+                    <li>
+                        <a href="./assets/MichaelResume (Oct. 2021).pdf">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Hero-->
+        <section class="hero">
+            <div class="avatar">
+                <img src = "./assets/images/me4.jpg" alt ="Hiking Grand Canyon" />
+                <p class = "myname">Hi, I'm Michael Li</p>
+                <p class = "web">I am into Web Development</p>
+            </div>
+
+       
+
+
+        </section>
+
+        <!--About Me -->
+        <section id="about-me" class="intro">
+            <h2 class ="section-title"> About Me</h2>
+            <div class="flex-row">
+                <div class= "section-img">
+                    <img src = "./assets/images/aboutme.jpg" alt ="hiking"/>
+                </div>
+                <div class="section-txt"> 
+                    <p> I am currently a Mechanical Design Engineer for Honeywell. I am interested in learning to code.</p>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+        <!--Projects-->
+
+        <section id="projects" class = "section-info">
+            <h2 class="section-title2"> Projects</h2>
+            <div class= "first-project">
+                <a href ="https://limichael97.github.io/run-buddy/">
+                    <img src="./assets/images/runbuddy.JPG" alt="run buddy" class = "image" />
+                </a>
+                <div class = "img-txt">
+                    <h3>Run Buddy Website</h3>
+                    <p>HTML/CSS</p>
+                </div>
+            </div>
+            <article class ="project-work">
+                <div class= "work-box">
+                    <a href= "https://limichael97.github.io/robot-gladiators/" >
+                        <img src="./assets/images/game.jpg" alt="game" class="image"/>
+                    </a>
+                    <div class = "img-txt">
+                        <h3>Browser-Based Robot Gladiator Game</h3>
+                        <p>JavaScript/HTML</p>
+                    </div>
+                </div>
+
+                <div class= "work-box">
+                    <a href ="">
+                        <img src ="assets/images/calculator.jpg" alt ="calculator" class="image" />
+                    </a>
+                    <div class = "img-txt">
+                        <h3>Calculator (Placeholder)</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+
+                <div class= "work-box">
+                    <a href ="">
+                        <img src="./assets/images/led wall.jpeg" alt="led wall" class ="image"/>
+                    </a>
+                    <div class = "img-txt">
+                        <h3>LED Wall (Placeholder)</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+
+                <div class= "work-box">
+                    <a href ="">
+                        <img src="assets/images/blog.png" alt= "blog" class="image"/>
+                    </a>
+                    <div class = "img-txt">
+                        <h3>Blog (Placehodler)</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+
+        <!--Contact Me-->
+        <section id = "contact-me" class = "contact-me">
+            <h2 class = "section-title">Contact Me</h2>
+            <form class = "form">
+                <label for = "contact-name">Your Name</label>
+                <input type= "text" id="contact-name" placeholder="Your Name" />
+
+                <label for="contact-message"> Message </label>
+                <textarea id= "contact-message" placeholder="Message"></textarea>
+
+                <button type ="submit">Submit</button>
+            </form>
+
+        </section>
+
+
+
+        <!--Footer-->
+
+        <footer>
+            <div>
+                <a href ="mailto:thisislimichael@gmail.com">
+                    <img src ="assets/images/email.png" alt = "my email" class = "medialogo"/>
+                </a>
+            </div>
+
+            <div>
+                <a href ="https://www.linkedin.com/in/michaelli97/">
+                    <img src ="assets/images/linkedin.png" alt = "my linkedin" class = "medialogo"/>
+                </a>
+            </div>
+            
+
+            <div class="foot">
+                &copy; Designed by Michael Li 👨‍💻
+            </div>
+        </footer>
+    </body>
+
+
+
+</html>
