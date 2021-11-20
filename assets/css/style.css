@@ -189,7 +189,7 @@ section h2 {
 }
 
 .first-project img {
-    width: 850px;
+    width: 700px;
     height: auto;
     box-shadow: 10px 10px 5px gray;
 }
@@ -236,6 +236,49 @@ section h2 {
 
 .img-txt {
     padding-top: 8px;
+}
+
+/* Skills */
+
+.skillLang  {
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: 5px;
+}
+
+.skillLook {
+    margin-bottom: 10px;
+    
+}
+
+.iconStyle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icons {
+    height:50px;
+    font-weight: 50px;
+    margin-right: 10px;
+
+}
+
+.skillLook h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skillLang {
+    margin-left: 60px;
+}
+
+.skillLang p {
+    background-color: rgb(0, 0, 172);
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* Contact Section */
