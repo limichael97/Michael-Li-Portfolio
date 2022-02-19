@@ -98,7 +98,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 70%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -373,8 +373,25 @@ footer {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width:980px) {
-      header {
+@media screen and (max-width:1280px) {
+
+
+    .avatar img{
+        top: 80%;
+
+    }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width:900px) {
+
+
+    .avatar img{
+        top: 80%;
+
+    }
+
+    header {
         padding:0;
         justify-content:center;
         position: relative;
@@ -400,23 +417,19 @@ footer {
         text-align: center;
         width: 100%;
     }
-
-    .first-project img{
-        width: 100%;
-        height: auto;
-
-    }
 }
+
+
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 550px) {
     .avatar img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
-        top: 70%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -424,13 +437,27 @@ footer {
     .avatar p {
         text-align: center;
         position: relative;
-        top: 650px;
+        top: 300px;
         color: white;
         text-shadow: 10px 10px 5px gray;
     }
 
+    header nav ul li a {
+        padding: 5px 10px;    
+    }
+
     .myname {
         font-size: 30px;
+    }
+
+    .hero {
+        background-image: url("../images/background2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-position: 80%;
+        height: 550px;
+        width: auto;
     }
 
     .web {
@@ -444,11 +471,27 @@ footer {
         justify-content: center;
 
     }
+
+    .first-project img {
+        width: 400px;
+        height: auto;
+        box-shadow: 10px 10px 5px gray;
+        
+    }
+
+    .first-project {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .work-box {
         display: block;
         padding: 20px;
         padding-bottom: 20px;
-        height:400px;
+        height:300px;
         width: 600px;
         margin: auto;
         overflow-y: hidden;
@@ -460,6 +503,8 @@ footer {
         margin: 0;
         padding: 0;
         border: 0;
+        width: 300px;
+        height: 200px;
     }
 
     .form input, .form textarea {
