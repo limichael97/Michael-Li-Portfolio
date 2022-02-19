@@ -73,7 +73,8 @@ header nav ul li a:hover {
 
 
 section {
-    padding: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* Hero */
@@ -190,7 +191,7 @@ section h2 {
 }
 
 .first-project img {
-    width: 700px;
+    width: 600px;
     height: auto;
     box-shadow: 10px 10px 5px gray;
 }
@@ -220,7 +221,7 @@ section h2 {
     display: block;
     padding: 20px;
     padding-bottom: 50px;
-    height:500px;
+    height:400px;
     width: 700px;
     margin: auto;
     overflow-y: hidden;
@@ -229,8 +230,8 @@ section h2 {
 
 .work-box img {
     margin: auto;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     box-shadow: 10px 10px 5px gray;
     object-fit: cover;
 }
@@ -240,6 +241,22 @@ section h2 {
 }
 
 /* Skills */
+
+.skills-title {
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width:50%;
+
+}
+
+.skills {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
 
 .skillLang  {
     display: flex;
@@ -292,6 +309,7 @@ section h2 {
 
 .contact-me {
     background-color: black;
+    margin-top: 40px;
     
 }
 
@@ -375,9 +393,19 @@ footer {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width:1280px) {
 
+    .hero {
+
+        height: 700px;
+        width: auto;
+    }
 
     .avatar img{
-        top: 80%;
+        top: 60%;
+
+    }
+
+    .avatar p{
+        top: 520px;
 
     }
 }
@@ -387,7 +415,7 @@ footer {
 
 
     .avatar img{
-        top: 80%;
+        top: 60%;
 
     }
 
@@ -413,10 +441,55 @@ footer {
         font-size: 20px;
     }
 
+    .project-work {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .first-project img {
+        width: 555px;
+        height: auto;
+        box-shadow: 10px 10px 5px gray;
+        
+    }
+
+    .first-project {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .work-box {
+        display: block;
+        padding: 20px;
+        padding-bottom: 20px;
+        height:400px;
+        width: 600px;
+        margin: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+    .work-box img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 400px;
+        height: 300px;
+    }
+
     footer h2, footer div {
         text-align: center;
         width: 100%;
     }
+
+
 }
 
 
@@ -437,7 +510,7 @@ footer {
     .avatar p {
         text-align: center;
         position: relative;
-        top: 300px;
+        top: 370px;
         color: white;
         text-shadow: 10px 10px 5px gray;
     }
