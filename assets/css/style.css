@@ -98,7 +98,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 35%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -416,7 +416,7 @@ footer {
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
