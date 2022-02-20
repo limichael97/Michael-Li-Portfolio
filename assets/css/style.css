@@ -99,7 +99,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -107,7 +107,7 @@ section {
 .avatar p {
     text-align: center;
     position: relative;
-    top: 600px;
+    top: 650px;
     color: white;
     text-shadow: 10px 10px 5px gray;
 
@@ -400,7 +400,7 @@ footer {
     }
 
     .avatar img{
-        top: 60%;
+        top: 40%;
 
     }
 
@@ -415,7 +415,16 @@ footer {
 
 
     .avatar img{
-        top: 60%;
+        width: 300px;
+        height: 300px;
+
+        top: 40%;
+
+    }
+
+    .avatar p{
+        font-size: 30px;
+        top: 470px;
 
     }
 
@@ -502,7 +511,7 @@ footer {
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -513,6 +522,8 @@ footer {
         top: 370px;
         color: white;
         text-shadow: 10px 10px 5px gray;
+        font-size: 20px;
+
     }
 
     header nav ul li a {
@@ -531,10 +542,6 @@ footer {
         background-position: 80%;
         height: 550px;
         width: auto;
-    }
-
-    .web {
-        font-size: 20px;
     }
 
     .project-work {
