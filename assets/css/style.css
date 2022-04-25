@@ -99,7 +99,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -400,7 +400,7 @@ footer {
     }
 
     .avatar img{
-        top: 40%;
+        top: 30%;
 
     }
 
@@ -418,7 +418,7 @@ footer {
         width: 300px;
         height: 300px;
 
-        top: 40%;
+        top: 30%;
 
     }
 
@@ -511,7 +511,7 @@ footer {
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
