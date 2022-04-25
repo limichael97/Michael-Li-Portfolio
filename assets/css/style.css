@@ -99,7 +99,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    top: 35%;
+    top: 500px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -107,7 +107,7 @@ section {
 .avatar p {
     text-align: center;
     position: relative;
-    top: 650px;
+    top: 700px;
     color: white;
     text-shadow: 10px 10px 5px gray;
 
@@ -395,17 +395,17 @@ footer {
 
     .hero {
 
-        height: 700px;
+        height: 800px;
         width: auto;
     }
 
     .avatar img{
-        top: 30%;
+        top: 400px;
 
     }
 
     .avatar p{
-        top: 520px;
+        top: 550px;
 
     }
 }
@@ -418,13 +418,13 @@ footer {
         width: 300px;
         height: 300px;
 
-        top: 30%;
+        top: 400px;
 
     }
 
     .avatar p{
         font-size: 30px;
-        top: 470px;
+        top: 550px;
 
     }
 
@@ -511,7 +511,7 @@ footer {
         object-fit: cover;
         border-radius: 50%;
         position: absolute;
-        top: 25%;
+        top: 330px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -519,7 +519,7 @@ footer {
     .avatar p {
         text-align: center;
         position: relative;
-        top: 370px;
+        top: 400px;
         color: white;
         text-shadow: 10px 10px 5px gray;
         font-size: 20px;
